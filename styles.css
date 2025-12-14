@@ -1,0 +1,107 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.calculator {
+  width: 340px;
+  background: #020617;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.display {
+  padding: 15px;
+  background: #020617;
+}
+
+#history {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  min-height: 20px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+#history.restore-flash {
+  color: #38bdf8;
+}
+
+.screen-wrapper {
+  position: relative;
+}
+
+#screen {
+  width: 100%;
+  font-size: 2rem;
+  text-align: right;
+  background: none;
+  border: none;
+  color: #e5e7eb;
+  padding-right: 40px; /* space for delete icon */
+}
+
+#screen.restore {
+  animation: restorePop 0.25s ease-out;
+}
+
+/* Screen restore animation */
+@keyframes restorePop {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+#deleteBtn {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  width: 50px;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: none; /* hidden by default */
+}
+
+#deleteBtn:hover {
+  color: white;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  padding: 18px;
+  font-size: 1.1rem;
+  border: 1px solid #020617;
+  background: #1e293b;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #334155;
+}
+
+.zero {
+  grid-column: span 2;
+}
