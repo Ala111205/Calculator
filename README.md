@@ -1,16 +1,14 @@
 **🧮 Advanced Scientific Calculator (Web App)**
 
       A hard-level calculator web application built from scratch using HTML, CSS, and Vanilla JavaScript, featuring a custom mathematical expression engine (no eval), correct operator precedence, unary operator handling, memory functions, keyboard support, expression history restore with animations, and robust error handling.
-
-This project goes beyond basic calculators by implementing computer-science concepts such as tokenization, Reverse Polish Notation (RPN), stack-based evaluation, and a finite state machine for UI control.
+      This project goes beyond basic calculators by implementing computer-science concepts such as tokenization, Reverse Polish Notation (RPN), stack-based evaluation, and a finite state machine for UI control.
 
 **Repository / Live Demo👉** https://ala111205.github.io/Calculator/
 
 **🚀 Features**
 **🔹 Core Calculator Features**
 
-      ➕➖✖️➗ Perform basic arithmetic operations
-(addition, subtraction, multiplication, division)
+      ➕➖✖️➗ Perform basic arithmetic operations (addition, subtraction, multiplication, division)
 
       📐 Correct operator precedence using RPN (Shunting-Yard style algorithm)
 
@@ -66,7 +64,7 @@ This project goes beyond basic calculators by implementing computer-science conc
 
           ERROR – invalid expression or math error
 
-✔️ Prevents incorrect behavior like appending values after results or errors
+      ✔️ Prevents incorrect behavior like appending values after results or errors
 
 **🧠 Technical Highlights**
 
