@@ -4,7 +4,7 @@
       
       This project goes beyond basic calculators by implementing computer-science concepts such as tokenization, Reverse Polish Notation (RPN), stack-based evaluation, and a finite state machine for UI control.
 
-**Repository / Live Demo👉** https://ala111205.github.io/Calculator/
+**Live Demo👉** https://ala111205.github.io/Calculator/
 
 **🚀 Features**
 
